@@ -32,6 +32,18 @@ $(document).ready(function() {
         if($(this).scrollTop() <= $('.target-section').offset().top - temp1*0.5 || $(this).scrollTop() >= $('.target-section').offset().top + $('.target-section').outerHeight()- temp1*0.5) {
             $(".target-text").removeClass('actived');
         }
+        if($(this).scrollTop() <= $('.currencies').offset().top && $(this).scrollTop()+$(window).height() >= $('.currencies').offset().top + $('.currencies').outerHeight() ) {
+            $(".currencies").addClass('actived');
+        }
+        if($(this).scrollTop() >= $('.currencies').offset().top + $('.currencies').outerHeight() || $(this).scrollTop()+$(window).height() <= $('.currencies').offset().top) {
+            $(".currencies").removeClass('actived');
+        }
+        if($(this).scrollTop() <= $('.multi-currency').offset().top && $(this).scrollTop()+$(window).height() >= $('.multi-currency').offset().top + $('.currencies').outerHeight() ) {
+            $(".multi-currency").addClass('actived');
+        }
+        if($(this).scrollTop() >= $('.multi-currency').offset().top + $('.multi-currency').outerHeight() || $(this).scrollTop()+$(window).height() <= $('.multi-currency').offset().top) {
+            $(".multi-currency").removeClass('actived');
+        }
     }else{
        if($(this).scrollTop() <= $('.get-started').offset().top && $(this).scrollTop()+$(window).height() >= $('.get-started').offset().top + $('.get-started').outerHeight() ) {
             $(".get-started-img-block").addClass('actived');

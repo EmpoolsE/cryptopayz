@@ -99,6 +99,7 @@ h2, .h2, h3, .h3{margin: 0;}
 .checkout-text h2::after {  content: '';   width: 69px;   display: block;  background-color: #caa17a;  height: 4px;  margin-top: 0px;  margin-top: 19px;}
 
 .target-section {  z-index: 15;   padding-top: 44px;  position: relative;  padding-bottom: 78px;}
+.target-section > .ccontainer {  margin-bottom: 126px;}
 .target-section h2 {  font-size: 40px;  color: rgb(63, 63, 63);  line-height: 1.2;  margin-bottom: 40px;}
 .target-text h2::after {  width: 69px;  display: block;  background-color: #caa17a;  height: 4px;  margin-top: 19px;  content: '';}
 .target-text { max-width: 365px;}
@@ -108,21 +109,32 @@ h2, .h2, h3, .h3{margin: 0;}
 .target-section .rrow {  position: relative;}
 .target-text + img {  width: 46.75%;   position: absolute;   top: 0;   right: -2.2%;   -webkit-transform: scale(0);   -ms-transform: scale(0);   transform: scale(0);   -webkit-transition: all .3s ease-out;   -o-transition: all .3s ease-out;   transition: all .3s ease-out;}
 .target-text.actived + img{-webkit-transform: scale(1);   -ms-transform: scale(1);   transform: scale(1); }
-.currencies {  margin-top: 126px;}
 .currencies h3 {  margin: 0 -15px;   font-size: 36px;  margin-bottom: 73px;}
 .currencies .rrow {  -webkit-box-pack: justify;  -webkit-justify-content: space-between;  -ms-flex-pack: justify;  justify-content: space-between;   text-align: center;}
-.currenci-icon {  background-image: url(../img/curencies-ico.png);  height: 73px;  width: 73px;}
-.currenci:nth-child(2) .currenci-icon { background-position: 9.9% top;}
-.currenci:nth-child(3) .currenci-icon { background-position: 19.8% top;}
-.currenci:nth-child(4) .currenci-icon { background-position: 29.8% top;}
-.currenci:nth-child(5) .currenci-icon { background-position: 40% top;}
-.currenci:nth-child(6) .currenci-icon { background-position: 50% top;}
-.currenci:nth-child(7) .currenci-icon { background-position: 60% top;}
-.currenci:nth-child(8) .currenci-icon { background-position: 70% top;}
-.currenci:nth-child(9) .currenci-icon { background-position: 80% top;}
-.currenci:nth-child(10) .currenci-icon { background-position: 90% top;}
-.currenci:nth-child(11) .currenci-icon { background-position: 100% top;}
-.currenci p {  font-size: 14px;  color: rgb(171, 139, 108);  text-align: center;  margin-top: 26px;}
+.currenci-icon {  background-image: url(../img/curencies-ico.png);  height: 73px;  width: 73px;position: relative;opacity: 0;-webkit-transition: opacity 1s ease-out;-o-transition: opacity 1s ease-out;transition: opacity 1s ease-out;}
+.actived .currenci-icon{-webkit-animation: droping 1s normal;animation: droping 1s normal;opacity: 1; -webkit-transition-delay:0 !important; -o-transition-delay:0 !important; transition-delay:0 !important;}
+.actived .currenci p{-webkit-animation: fading 1s normal;animation: fading 1s normal;opacity: 1; -webkit-transition-delay:0 !important; -o-transition-delay:0 !important; transition-delay:0 !important;}
+.currenci:nth-child(2) .currenci-icon { background-position: 9.9% top;-webkit-animation-delay: .2s;animation-delay: .2s; -webkit-transition-delay:.2s; -o-transition-delay:.2s; transition-delay:.2s;}
+.currenci:nth-child(3) .currenci-icon { background-position: 19.8% top;-webkit-animation-delay: .3s;animation-delay: .3s;-webkit-transition-delay:.3s;-o-transition-delay:.3s;transition-delay:.3s;}
+.currenci:nth-child(4) .currenci-icon { background-position: 29.8% top;-webkit-animation-delay: .4s;animation-delay: .4s;-webkit-transition-delay:.4s;-o-transition-delay:.4s;transition-delay:.4s;}
+.currenci:nth-child(5) .currenci-icon { background-position: 40% top;-webkit-animation-delay: .5s;animation-delay: .5s; -webkit-transition-delay:.5s; -o-transition-delay:.5s; transition-delay:.5s;}
+.currenci:nth-child(6) .currenci-icon { background-position: 50% top;-webkit-animation-delay: .6s;animation-delay: .6s;-webkit-transition-delay:.6s;-o-transition-delay:.6s;transition-delay:.6s;}
+.currenci:nth-child(7) .currenci-icon { background-position: 60% top;-webkit-animation-delay: .7s;animation-delay: .7s;-webkit-transition-delay:.7s;-o-transition-delay:.7s;transition-delay:.7s;}
+.currenci:nth-child(8) .currenci-icon { background-position: 70% top;-webkit-animation-delay: .8s;animation-delay: .8s;-webkit-transition-delay:.8s;-o-transition-delay:.8s;transition-delay:.8s;}
+.currenci:nth-child(9) .currenci-icon { background-position: 80% top;-webkit-animation-delay: .9s;animation-delay: .9s;-webkit-transition-delay:.9s;-o-transition-delay:.9s;transition-delay:.9s;}
+.currenci:nth-child(10) .currenci-icon { background-position: 90% top;-webkit-animation-delay: 1s;animation-delay: 1s; -webkit-transition-delay:1s; -o-transition-delay:1s; transition-delay:1s;}
+.currenci:nth-child(11) .currenci-icon { background-position: 100% top;-webkit-animation-delay: 1.1s;animation-delay: 1.1s; -webkit-transition-delay:1.1s; -o-transition-delay:1.1s; transition-delay:1.1s;}
+.currenci:nth-child(2) p{ -webkit-animation-delay: .2s;animation-delay: .2s; -webkit-transition-delay:.2s; -o-transition-delay:.2s; transition-delay:.2s;}
+.currenci:nth-child(3) p{ -webkit-animation-delay: .3s;animation-delay: .3s; -webkit-transition-delay:.3s; -o-transition-delay:.3s; transition-delay:.3s;}
+.currenci:nth-child(4) p{ -webkit-animation-delay: .4s;animation-delay: .4s; -webkit-transition-delay:.4s; -o-transition-delay:.4s; transition-delay:.4s;}
+.currenci:nth-child(5) p{ -webkit-animation-delay: .5s;animation-delay: .5s; -webkit-transition-delay:.5s; -o-transition-delay:.5s; transition-delay:.5s;}
+.currenci:nth-child(6) p{ -webkit-animation-delay: .6s;animation-delay: .6s; -webkit-transition-delay:.6s; -o-transition-delay:.6s; transition-delay:.6s;}
+.currenci:nth-child(7) p{ -webkit-animation-delay: .7s;animation-delay: .7s; -webkit-transition-delay:.7s; -o-transition-delay:.7s; transition-delay:.7s;}
+.currenci:nth-child(8) p{ -webkit-animation-delay: .8s;animation-delay: .8s; -webkit-transition-delay:.8s; -o-transition-delay:.8s; transition-delay:.8s;}
+.currenci:nth-child(9) p{ -webkit-animation-delay: .9s;animation-delay: .9s; -webkit-transition-delay:.9s; -o-transition-delay:.9s; transition-delay:.9s;}
+.currenci:nth-child(10) p{ -webkit-animation-delay: 1s;animation-delay: 1s; -webkit-transition-delay:1s; -o-transition-delay:1s; transition-delay:1s;}
+.currenci:nth-child(11) p{ -webkit-animation-delay: 1.1s;animation-delay: 1.1s; -webkit-transition-delay:1.1s; -o-transition-delay:1.1s; transition-delay:1.1s;}
+.currenci p {  font-size: 14px;  color: rgb(171, 139, 108);  text-align: center;  margin-top: 26px;opacity: 0;-webkit-transition: opacity 1s ease-out;-o-transition: opacity 1s ease-out;transition: opacity 1s ease-out;}
 .dotted {  width: 19%;height: 2px;background-image: url(../img/dot.png);margin-bottom: 46px;}
 .currencies-points {  display: -webkit-box;  display: -webkit-flex;  display: -ms-flexbox;  display: flex;   -webkit-flex-wrap: nowrap;   -ms-flex-wrap: nowrap;   flex-wrap: nowrap;-webkit-box-align: center;-webkit-align-items: center;-ms-flex-align: center;align-items: center;}
 .currencies-points .ccontainer { width: 100%;   max-width: 1170px;}
@@ -136,9 +148,14 @@ h2, .h2, h3, .h3{margin: 0;}
 .target-section::after {  content: '';   position: absolute;  top: 0;   right: 0;   width: 28%;   bottom: 0;  display: block;  background-image: url(../img/key-after.png);  background-repeat: no-repeat;   background-position: top right;  background-size: 100% auto;}
 .target-section::before {  content: '';   position: absolute;  top: 0;  left: 0;  width: 18.15%;  bottom: 0;  display: block;  background-image: url(../img/key-before.png);  background-repeat: no-repeat;   background-position: top left;  background-size: 100% auto;}
 .mult-currency-img + p {  font-size: 21px;   color: #b59561;   margin-top: 37px;}
-.multi-currency .rrow > div::after {  content: '';   height: 1px;   width: 93%;   display: block;   position: absolute;   right: -88%;   top: 37.1%;   background-image: url(../img/doted.png);}
+.multi-currency .rrow > div::after {  content: '';   height: 1px;   width: 0;   display: block;   position: absolute;   right: 0;   top: 37.1%;   background-image: url(../img/doted.png);-webkit-transition: all 1s ease-out 0.5s;-o-transition: all 1s ease-out 0.5s;transition: all 1s ease-out 0.5s;}
 .multi-currency .rrow {  width: 88%;   margin: 0 auto;   -webkit-box-pack: justify;   -webkit-justify-content: space-between;   -ms-flex-pack: justify;   justify-content: space-between;}
-.multi-currency .rrow > div {  position: relative;   width: 21.08%;}
+.multi-currency .rrow > div {  position: relative;   width: 21.08%; -webkit-transform: rotateX(-90deg); transform: rotateX(-90deg);opacity: 0;-webkit-transition: all 1s ease-out;-o-transition: all 1s ease-out;transition: all 1s ease-out;-webkit-transition-delay: 0s;-o-transition-delay: 0s;transition-delay: 0s;}
+.multi-currency.actived .rrow > div:nth-child(2){-webkit-transition-delay: 1s;-o-transition-delay: 1s;transition-delay: 1s;}
+.multi-currency.actived .rrow > div:nth-child(3){-webkit-transition-delay: 2s;-o-transition-delay: 2s;transition-delay: 2s;}
+.multi-currency.actived .rrow > div:nth-child(2)::after{-webkit-transition-delay: 1.5s;-o-transition-delay: 1.5s;transition-delay: 1.5s;}
+.multi-currency.actived .rrow > div{opacity: 1;-webkit-transform: rotateX(0deg);transform: rotateX(0deg);-webkit-transition-delay: 0s;-o-transition-delay: 0s;transition-delay: 0s;}
+.multi-currency.actived .rrow > div::after{width: 93%; right: -88%;}
 .multi-currency .rrow > div img{width: 100%;}
 .multi-currency h2 {  font-size: 40px;  margin-bottom: 73px;}
 .multi-currency h2::after {  content: '';   width: 71px;  display: block;  background-color: #caa17a;  height: 4px;   margin: 0 auto;  margin-top: 23px;}
@@ -189,5 +206,23 @@ legend {  display: block;   width: initial;   padding: 0;  line-height: inherit;
 .links a:hover,.head-btns>a:hover,.integration-text a:hover {  color: white;   background-color: #3f3f3f;   border-color: #3f3f3f;}
 .links a:last-child:hover,.head-btns>a:last-child:hover,.instant-text a:hover {color: white;background-color: #caa17a; border-color: #caa17a;}
 
+@-webkit-keyframes droping{
+   from {top:-50px;opacity: 0;}
+    to {top: 0px;opacity: 1;}
+}
+
+@keyframes droping{
+   from {top:-50px;opacity: 0;}
+    to {top: 0px;opacity: 1;}
+}
+@-webkit-keyframes fading{
+   from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fading{
+   from {opacity: 0;}
+    to {opacity: 1;}
+}
 
 
