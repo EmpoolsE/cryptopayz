@@ -1,0 +1,245 @@
+/*==========  Desktop First Method  ==========*/
+
+
+@media only screen and (max-width : 1610px){
+	.integration-img-block { height: 43%;}
+}
+
+
+@media only screen and (max-width : 1550px){
+	.dotted { width: 10%;}
+}
+
+@media only screen and (max-width : 1450px) {
+.links-wrap {  width: 48%;   margin-right: 4.5%;}
+.logo-wrap {  margin-right: 5.65%;}
+.integration-img-block {  height: 37%;}
+
+}
+
+@media only screen and (max-width : 1300px) {
+	.dotted {  width: 2%;}
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1199px) {
+.get-started {  padding-top: 90px;   padding-bottom: 90px;}
+.get-started h2 + p {margin-top: 27px; margin-bottom: 24px;}
+.get-started li {  margin-bottom: 31px;}
+.get-started li > p {  font-size: 16px;}
+.integration-img-block {top: 279px; height: 28%;}
+.checkout-solution {  padding-top: 37px; padding-bottom: 30px;}
+.checkout-img-block {left: -1%;  top: 5%;}
+.target-text + img {right: 0.8%;}
+.currenci-icon {   height: 50px;   width: 50px;   background-size: auto 100%;}
+.currenci {  width: 50px;   text-align: center;}
+.instant-curr { padding-bottom: 100px;}
+.currencies-links-wrap a {   margin: 2px;}
+.currencies-links-wrap {  -webkit-flex-wrap: wrap;  -ms-flex-wrap: wrap;  flex-wrap: wrap;  -webkit-box-pack: center;  -webkit-justify-content: center;  -ms-flex-pack: center;  justify-content: center;}
+.currencies-wrap {   width: 250px;   margin-right: 0;}
+.integration {padding-bottom: 180px;}
+.currencies-points .ccontainer {  width: 100%;   max-width: 960px;}
+.currenci::after {top: 25px;}
+.dotted {  width: 8%;margin-bottom: 63px;}
+.globe-wrap svg {top: -127px;left: 40px;}
+.integration-img-block img:nth-child(6) {  left: -44%;   top: -102%;   width: 207%;}
+.key-ico-wrap > span:nth-child(2) {font-size: 28px;}
+.key-ico-wrap > span {  font-size: 19px;}
+.blockchain-body .page-header .rrow::after {width: 30%;}
+.convinient-wrap > .ccontainer::after {height: 170px;right: 12%;  bottom: -71px;}
+.secure-wrap .ccontainer::after {bottom: 45px;}
+
+}
+@media only screen and (max-width : 1050px){.dotted {  width: 1%;}
+.integration-img-block img:nth-child(6) {top: -90%;}
+.multi-currency .rrow > div::after {top: 34.1%;}
+.integration-img-block {  top: 279px;  height: 38%;   right: 13%;   width: 41.3%;}
+.dotted {   display: none;}
+.head-btns > a {line-height: 31px;  height: 31px;}
+h1 {  font-size: 39px;}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 991px) {
+.get-started h2 {  font-size: 33px;}
+.get-started h2 + p {  margin-top: 15px;   margin-bottom: 15px;   font-size: 15px;}
+.get-started .text-block {  width: 54.2%;}
+.get-started li > p {  font-size: 13px;   line-height: 1.4;}
+.get-started li {  margin-bottom: 20px;}
+.get-started {  padding-bottom: 40px;}
+.get-started-img-block {top: 29%;}
+.integration-text {font-size: 16px;  margin-top: 31px;   max-width: 300px;   line-height: 1.6;}
+.integration-text > p:first-child {  margin-bottom: 20px;}
+.integration-text ul + p {  margin-top: 15px;   max-width: 354px;}
+.integration-text a {margin-top: 25px;}
+.integration-img-block {  top: 180px;   height: 28%;}
+.integration {    background-position: top right;   background-size: cover;}
+.checkout-solution h2 {  font-size: 28px;   margin-bottom: 20px;}
+.checkout-solution p {  line-height: 1.675;   font-size: 14px;   max-width: 310px;  margin-bottom: 14px;}
+.checkout-img-block {  left: -0.4%;   top: 22%;}
+.checkout-solution {   padding-bottom: 40px;}
+.target-section {padding-top: 24px;  padding-bottom: 38px;}
+.target-section h2 {  font-size: 31px;   margin-bottom: 20px;}
+.percentage {  font-size: 18px;  line-height: 27px;  margin-top: 20px;  letter-spacing: 1px;}
+.percentage .num {  font-size: 32px;}
+.percentage + p {  font-size: 14px;   margin-top: 12px;  line-height: 1.5;}
+.target-section::before {width: 31.15%;}
+.target-section::after {width: 40%;}
+.currencies h3 {  font-size: 28px;   margin-bottom: 33px;text-align: center;}
+.currencies-points .ccontainer {  width: 100%;    max-width: 500px;}
+.currenci:nth-child(6), .currenci:last-child {  margin-right: 0;}
+.currenci {  margin-right: 35px;   margin-bottom: 20px;width: 50px;text-align: center;}
+.currenci:nth-child(6)::after {  content: none;}
+
+.currencies .rrow {    -webkit-flex-wrap: wrap;    -ms-flex-wrap: wrap;    flex-wrap: wrap;  -webkit-box-pack: center;  -webkit-justify-content: center;  -ms-flex-pack: center;  justify-content: center;}
+.multi-currency .rrow > div::after {top: 32.1%;}
+.instant-text h2 {  font-size: 30px;}
+.instant-text p {  font-size: 14px;   max-width: 325px;   margin-top: 20px;  line-height: 1.6;}
+.instant-text a {margin-top: 30px;}
+.instant-curr {  padding-bottom: 50px;}
+.footer-content {    -webkit-flex-wrap: wrap;    -ms-flex-wrap: wrap;    flex-wrap: wrap;  -webkit-box-pack: justify;  -webkit-justify-content: space-between;  -ms-flex-pack: justify;  justify-content: space-between;}
+.currencies-wrap {  width: 100%;   margin-right: 0;margin-top: 15px;}
+.links-wrap {  width: 66%;   margin-right: 0;}
+.logo-wrap {  margin-right: 0;}
+footer {  padding-top: 24px;}
+.globe-wrap svg {top: -91px;left: 30px;}
+.navbar-header {    float: left;}
+.integration-img-block {  height: 35%;}
+.globe-wrap > img:nth-child(1) {  top: 8%;    right: 48%;}
+.globe-wrap > img:nth-child(2) {  top: 51.8%;   left: 6.58%;}
+.globe-wrap > img:nth-child(3) {  top: 30.5%;   right: 9%;}
+.globe-wrap > img:nth-child(4) {  top: 23.4%;   left: 0%;}
+.globe-wrap > img:nth-child(5) { top: 37%;   right: 42%;}
+.globe-wrap > img:nth-child(6) {  top: 28.5%;   right: 59%;}
+.globe-wrap > img:nth-child(8) {  top: 53%;   right: 50%;}
+.globe-wrap > img:nth-child(9) {  top: 68%;   right: 27%;}
+.key-ico-wrap > span:nth-child(2) {font-size: 18px;}
+.key-ico-wrap > span { font-size: 14px;}
+.blockchain-body h3 {  font-size: 28px;   margin-bottom: 20px;}
+.blockchain-body p {  font-size: 16px;   line-height: 24px;}
+.chargebacks__info p {  margin-bottom: 12px;}
+.convinient__info {margin-top: 60px;}
+.chargebacks__info {  width: 55%;}
+.chargebacks-wrap .img-block { margin-top: 58px;}
+.chargebacks-wrap {padding-top: 44px;padding-bottom: 70px;}
+.chargebacks__info {margin-right: 0;}
+.convinient-wrap {  padding-top: 38px;}
+.blockchain-body .page-header .rrow::after {right: 125px;width: 27%;    right: 26.8%;   top: 26px;}
+.convinient-wrap > .ccontainer::after {height: 120px;right: 4%;  bottom: -69px;}
+.secure-wrap .ccontainer::after {height: 96px;bottom: 45px;}
+
+
+}
+
+@media only screen and (max-width : 800px){
+	.integration-img-block {  top: 180px;   height: 47%;  width: 42.3%;  right: 11%;}
+	.integration-img-block img:nth-child(6) { top: -68%;}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+	.get-started-img-block {  top: 42%;}
+	.get-started h2 {  font-size: 28px;}
+	.get-started h2::after {width: 45px;   height: 2px;   margin-top: 8px;}
+	.integration {  background-position: top right;  background-size: cover;  padding-top: 30px;  padding-bottom: 120px;}
+	.integration h2 {  font-size: 28px;   color: rgb(63, 63, 63);}
+	.integration h2::after {width: 45px;height: 2px; margin-top: 17px;}
+	.integration-text {  font-size: 14px;   margin-top: 15px;   line-height: 1.55;}
+	.integration-text > p:first-child {  margin-bottom: 10px;}
+	.integration-text ul + p { margin-top: 10px;}
+	.integration-img-block {  top: 121px;   height: 28%; right: 18%;}
+	.currencies {  margin-top: 50px;}
+	.currencies-points .ccontainer {  width: 100%;   max-width: 400px;}
+	.currenci:nth-child(4)::after, .currenci:nth-child(8)::after,.currenci:last-child::after { content: none;}
+	.currenci:nth-child(4), .currenci:nth-child(8),.currenci:last-child {  margin-right: 0;}
+	.currenci:nth-child(6)::after {  content: '';}
+	.currenci:nth-child(6){  margin-right: 35px;}
+	.multi-currency {padding-top: 33px; padding-bottom: 31px;}
+	.multi-currency h2 {   font-size: 28px;   margin-bottom: 35px;}
+	.multi-currency h2::after {width: 45px;height: 2px;  margin-top: 15px;}
+	.mult-currency-img + p {   font-size: 15px;   margin-top: 13px;}
+	.multi-currency .rrow + p {  font-size: 14px;width: 85%;margin-top: 35px;    line-height: 1.5;}
+	.instant-curr {  padding-bottom: 30px;  padding-top: 35px;}
+	.links-wrap {    width: 93%;    margin-right: 0;    margin: 0 auto;    margin-top: 15px;}
+	.globe-wrap svg {  top: -69px;    left: 23px;   z-index: 1;}
+	.globe-wrap {top: 8%;}
+	.currencies-points .ccontainer {  max-width: 325px;}
+	.key-ico-wrap > span:nth-child(2) {font-size: 14px;}
+	.key-ico-wrap > span {  font-size: 10px;}
+	.convinient-wrap {  padding-top: 38px;}
+	.convinient-wrap .img-block {  width: 45%;}
+	.convinient__info {  width: 54%;   margin-top: 20px;}
+	.blockchain-body h3 { font-size: 22px;   margin-bottom: 15px;}
+	.blockchain-body p {  font-size: 14px;   line-height: 21px;}
+	.secure-wrap {margin-top: 55px;}
+	.secure__info {  width: 50%;}
+	.secure-wrap .img-block {  width: 50%;}
+	.secure-wrap .img-block > img {left: -8%; top: -21%;}
+	.chargebacks-wrap {margin-top: -50px;padding-top: 0px;padding-bottom: 70px;}
+	.chargebacks-wrap .img-block {  width: 40.2%;    margin-top: 68px;}
+	.chargebacks__info {  width: 55%;    margin-right: 0;   margin-top: 40px;}
+	.chargebacks__info p {  margin-bottom: 12px;}
+	.blockchain-body .page-header .rrow::after {height: 100px;width: 9%;right: 29.8%;}
+.convinient-wrap > .ccontainer::after {height: 70px;right: 7%;  bottom: -50px;}
+.secure-wrap .ccontainer::after {height: 51px;right: 8%;bottom: 10px;}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 575px) {
+section {  padding: 0 15px;}
+.get-started-img-block,.integration-img-block,.checkout-img-block  {  display: none;}
+.get-started .rrow,.integration .rrow,.instant-curr .rrow,.checkout-solution .rrow {  -webkit-box-pack: center;  -webkit-justify-content: center;  -ms-flex-pack: center;  justify-content: center;}
+.checkout-solution {  padding-top: 65px;}
+.checkout-text {  width: 300px;}
+.target-text.actived + img {  display: none;}
+.target-section .rrow {  -webkit-box-pack: center;  -webkit-justify-content: center;  -ms-flex-pack: center;  justify-content: center;}
+.multi-currency .rrow > div {  width: 28%;}
+.multi-currency .rrow > div::after {  top: 37.1%;}
+.globe-wrap {  display: none;}
+.instant-text {  width: 300px;}
+.get-started .text-block ,.target-text{  width: 300px;}
+.currencies {   width: 370px;  margin: 0 auto;   margin-top: 50px;}
+.navbar-header {  float: none;}
+.head-btns {  text-align: center;}
+.get-started {background-image: none;}
+.secure-wrap .img-block,.convinient-wrap .img-block,.chargebacks-wrap .img-block{display: none;}
+.convinient-wrap .rrow,.secure-wrap .rrow,.chargebacks-wrap .rrow {  -webkit-box-pack: center;  -webkit-justify-content: center;  -ms-flex-pack: center;  justify-content: center;}
+.convinient__info,.chargebacks__info {  width: 95%;}
+.secure__info {  width: 95%;text-align: right;}
+.chargebacks-wrap {  margin-top: 0;  padding-bottom: 30px;}
+.convinient-wrap {  padding-top: 18px;}
+.page-header h2 {  font-size: 32px;margin: 0 auto;}
+.page-header h2::after {  margin: 0 auto;    margin-top: 13px;}
+.blockchain-body .page-header .rrow::after,.convinient-wrap > .ccontainer::after {  content: none;}
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 480px) {
+.currencies-wrap {  width: 300px;   margin: 0 auto;}
+.links-item a,.links-item > .title {  font-size: 12px;}
+.currencies h3 {   font-size: 23px;}
+.currenci-icon {  height: 50px;   width: 50px;}
+.currencies {  width: 300px;margin-top: 60px;}
+.currenci-icon {  height: 55px;   width: 55px;}
+.currenci:nth-child(4)::after, .currenci:nth-child(8)::after { content: '';}
+.currenci:nth-child(4), .currenci:nth-child(8){  margin-right: 30px;}
+.currenci:nth-child(3)::after, .currenci:nth-child(6)::after,.currenci:nth-child(9)::after { content:none;}
+.currenci:nth-child(3), .currenci:nth-child(6),.currenci:nth-child(9){  margin-right: 0px;}
+.links-item {  width: 50%;  margin-bottom: 17px;}
+.links-wrap {  -webkit-flex-wrap: wrap;  -ms-flex-wrap: wrap;  flex-wrap: wrap;}
+.currenci {width: 55px}
+.integration {  padding-bottom: 165px;}
+.integration-text a {  margin: 25px auto 0;}
+.checkout-solution h2 {  text-align: center;}
+.checkout-text h2::after {  margin: 19px auto 0;}
+
+
+
+}
+@media only screen and (max-width : 375px) {
+	.multi-currency .rrow > div::after {  top: 33.1%;   right: -77%;   width: 87%;}
+	.mult-currency-img + p {  font-size: 13px;    margin-top: 8px;}
+}
+
